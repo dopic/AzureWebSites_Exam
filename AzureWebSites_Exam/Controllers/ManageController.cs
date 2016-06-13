@@ -22,7 +22,7 @@ namespace AzureWebSites_Exam.Controllers
 
         public ManageController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
-            UserManager = userManager;
+            UserManager = userManager;   
             SignInManager = signInManager;
         }
 
